@@ -5,7 +5,7 @@ import javax.swing.*;
 /**
  * @Author: Qihao
  * @Time: 2022/2022/8/17/19:42
- * @Descriptions:
+ * @Descriptions: JFrame实现一个无内容窗体
  */
 public class JFrameDemo {
     public static void main(String[] args) {
