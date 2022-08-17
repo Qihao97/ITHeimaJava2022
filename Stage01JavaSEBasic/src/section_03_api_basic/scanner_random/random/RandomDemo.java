@@ -22,5 +22,9 @@ public class RandomDemo {
             System.out.printf(r + "\t");
         }
         System.out.println();
+
+//        获取1到100之间的整数
+        int i1 = random.nextInt(100) + 1;
+        System.out.println(i1);
     }
 }
