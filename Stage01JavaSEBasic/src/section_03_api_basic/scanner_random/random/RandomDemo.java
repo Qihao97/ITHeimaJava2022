@@ -11,6 +11,7 @@ public class RandomDemo {
     public static void main(String[] args) {
         Random random = new Random();
 
+//        获取[0,10）之间的随机整数
         int i = random.nextInt(10);
         System.out.println(i);
 
