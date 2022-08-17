@@ -25,7 +25,7 @@ public class JLabelDemo {
         JLabel jLabel = new JLabel("好好学习");
         jLabel.setBounds(0, 0, 100, 20);
 
-        JLabel jLabel2 = new JLabel(new ImageIcon("1.png"));
+        JLabel jLabel2 = new JLabel(new ImageIcon("E:\\Exercises\\ITHeimaJava2022\\Stage01JavaSEBasic\\src\\section_03_api_basic\\gui\\1.png"));
         jLabel2.setBounds(50, 50, 246, 204);
 
         jFrame.add(jLabel);
