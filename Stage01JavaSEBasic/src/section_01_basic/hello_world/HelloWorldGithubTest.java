@@ -1,4 +1,4 @@
-package section_01_basic;
+package section_01_basic.hello_world;
 
 public class HelloWorldGithubTest {
     public static void main(String[] args) {
