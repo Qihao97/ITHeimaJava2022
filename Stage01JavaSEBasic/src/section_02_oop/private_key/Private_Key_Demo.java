@@ -15,5 +15,10 @@ public class Private_Key_Demo {
         studentPrivate1.setName("马尔扎哈");
         studentPrivate1.setAge(25);
         System.out.println("name = " + studentPrivate1.getName() + "  age = " + studentPrivate1.getAge());
+
+        System.out.println("------------------------------");
+        System.out.println("测试 toString函数：");
+        System.out.println(studentPrivate1.toString());
+
     }
 }
