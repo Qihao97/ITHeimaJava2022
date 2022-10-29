@@ -6,6 +6,11 @@ import javax.swing.*;
  * @Author: Qihao
  * @Time: 2022/2022/8/17/19:47
  * @Descriptions: JButton基本使用
+ * 构造方法：
+ * JButton(String text):        创建一个带文本的按钮
+ * 成员方法：
+ * void setSize(int width, int height);     设置按钮的大小
+ * void setLocation(int x, int y);      设置位置，（x坐标， y坐标）
  */
 public class JButtonDemo {
     public static void main(String[] args) {

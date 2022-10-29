@@ -9,6 +9,8 @@ import javax.swing.*;
  */
 
 /**
+ *  void setSize(int width, int hight)      设置窗体的宽高
+ *  void setVisible(boolean b)      设置窗体是否可见
  *  void setTitle(String title)     设置窗体标题
  *  void setLocationRelativeTo(Component c)     设置位置，值为null时，窗体位于屏幕中央
  *  void setDefaultCloseOperation(int operation):       设置窗体关闭时默认操作（整数3表示窗体关闭时退出）
