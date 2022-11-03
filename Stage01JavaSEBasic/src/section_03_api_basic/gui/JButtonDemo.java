@@ -31,7 +31,7 @@ public class JButtonDemo {
 //        设置按钮位置
 //        button.setLocation(100,100);
 
-//        设置按钮大小和位置
+//        设置按钮位置和大小
         button.setBounds(100, 100, 100, 20);
 
         JButton button_2 = new JButton("Button_2");
