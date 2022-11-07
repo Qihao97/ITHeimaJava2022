@@ -1,15 +1,21 @@
-package section_03_api_basic.gui.cases;
+package section_03_api_basic.StringAndTimeFormat;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
- * @Author: Qihao
- * @Time: 2022/2022/11/4/2:54
- * @Descriptions:考勤案例
+ * @Author ：Qihao
+ * @Time ：2022/11/07/10:32
+ * @Description ：考勤实现
+ * 根据开始时间和结束时间的字符串解析为日期提示出来
  */
-public class Case05Attendance {
+public class AttendanceRealization {
     public static void main(String[] args) {
-        //        创建窗体对象
+//        创建窗体对象
         JFrame jf = new JFrame("考勤查询");
 
         jf.setVisible(true);
@@ -41,11 +47,31 @@ public class Case05Attendance {
         JTextField endTimeTextField = new JTextField();
         endTimeTextField.setBounds(250, 100, 100, 20);
         jf.add(endTimeTextField);
-        
+
 //        确定按钮
         JButton confirmButton = new JButton("确定");
         confirmButton.setBounds(250, 180, 60, 20);
         jf.add(confirmButton);
+
+//        实现功能
+        confirmButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日");
+
+                String begin_date_text = beginTimeTextField.getText();
+                String end_date_text = endTimeTextField.getText();
+
+                try {
+                    Date begin_date = sdf.parse(begin_date_text);
+                    Date end_date = sdf.parse(end_date_text);
+
+                    JOptionPane.showMessageDialog(jf, begin_date + "\n" + end_date);
+                } catch (ParseException ex) {
+                    throw new RuntimeException(ex);
+                }
+            }
+        });
 
     }
 }
