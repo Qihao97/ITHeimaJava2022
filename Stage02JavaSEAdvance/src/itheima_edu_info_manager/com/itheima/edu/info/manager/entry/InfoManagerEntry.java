@@ -8,7 +8,7 @@ import java.util.Scanner;
 /***
  * @Author : Qihao
  * @Date   : 2022/11/8 15:49 
- * @Description : 系统入口
+ * @Description : 系统入口程序
  */
 public class InfoManagerEntry {
     public static void main(String[] args) {
