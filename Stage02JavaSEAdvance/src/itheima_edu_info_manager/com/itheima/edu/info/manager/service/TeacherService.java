@@ -3,6 +3,11 @@ package itheima_edu_info_manager.com.itheima.edu.info.manager.service;
 import itheima_edu_info_manager.com.itheima.edu.info.manager.dao.TeacherDao;
 import itheima_edu_info_manager.com.itheima.edu.info.manager.domain.Teacher;
 
+/***
+ * @Author : Qihao
+ * @Date   : 2022/11/8 15:46
+ * @Description : 教师服务
+ */
 public class TeacherService {
     private TeacherDao teacherDao = new TeacherDao();
 

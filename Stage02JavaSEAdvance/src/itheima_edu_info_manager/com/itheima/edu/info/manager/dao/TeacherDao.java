@@ -2,6 +2,11 @@ package itheima_edu_info_manager.com.itheima.edu.info.manager.dao;
 
 import itheima_edu_info_manager.com.itheima.edu.info.manager.domain.Teacher;
 
+/***
+ * @Author : Qihao
+ * @Date   : 2022/11/8 15:46
+ * @Description : 教师DAO
+ */
 public class TeacherDao {
     private static Teacher[] teachers = new Teacher[5];
 

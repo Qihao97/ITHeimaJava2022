@@ -3,6 +3,11 @@ package itheima_edu_info_manager.com.itheima.edu.info.manager.service;
 import itheima_edu_info_manager.com.itheima.edu.info.manager.dao.StudentDao;
 import itheima_edu_info_manager.com.itheima.edu.info.manager.domain.Student;
 
+/***
+ * @Author : Qihao
+ * @Date   : 2022/11/8 15:46
+ * @Description : 学生服务
+ */
 public class StudentService {
     // 创建StudentDao (库管)
     private StudentDao studentDao = new StudentDao();

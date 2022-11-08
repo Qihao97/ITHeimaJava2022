@@ -8,7 +8,7 @@ import java.util.Scanner;
 /***
  * @Author : Qihao
  * @Date   : 2022/11/8 15:46 
- * @Description : TODO
+ * @Description : 教师Controller
  */
 public class TeacherController {
     private Scanner sc = new Scanner(System.in);

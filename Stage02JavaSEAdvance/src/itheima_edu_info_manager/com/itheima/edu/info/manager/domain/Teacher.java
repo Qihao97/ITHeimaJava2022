@@ -1,5 +1,10 @@
 package itheima_edu_info_manager.com.itheima.edu.info.manager.domain;
 
+/***
+ * @Author : Qihao
+ * @Date   : 2022/11/8 15:46
+ * @Description : 教师信息基本描述
+ */
 public class Teacher {
     private String id;
     private String name;
