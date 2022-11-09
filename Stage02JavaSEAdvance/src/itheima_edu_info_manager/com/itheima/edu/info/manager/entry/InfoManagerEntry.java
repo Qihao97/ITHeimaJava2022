@@ -9,6 +9,13 @@ import java.util.Scanner;
  * @Author : Qihao
  * @Date   : 2022/11/8 15:49 
  * @Description : 系统入口程序
+ *
+ * static关键字：
+ *      1.被static关键字修饰的成员函数或者成员变量，会被该类所有对象所共享
+ *      2.被static关键字修饰的内容，在堆中有专门静态区存储，随着类的加载而加载，优先于对象存在，
+ *        因此被static关键字修饰的成员函数，只能使用静态变量
+ *      3.静态内容可以直接使用类名.调用
+ *
  */
 public class InfoManagerEntry {
     public static void main(String[] args) {
