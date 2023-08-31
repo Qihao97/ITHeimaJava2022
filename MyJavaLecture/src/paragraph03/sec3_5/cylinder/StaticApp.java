@@ -3,7 +3,7 @@ package paragraph03.sec3_5.cylinder;
 /**
  * @Author: Qihao
  * @Time: 2023/8/30 10:57
- * @Descriptions: 本类用于使用带static成员变量的Cylinder
+ * @Descriptions: 本类用于使用带static成员变量的Cylinder， P65,程序3.8
  */
 public class StaticApp {
     public static void main(String[] args) {
