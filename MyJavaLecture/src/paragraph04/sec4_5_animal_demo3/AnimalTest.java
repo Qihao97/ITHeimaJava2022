@@ -7,12 +7,12 @@ package paragraph04.sec4_5_animal_demo3;
  */
 public class AnimalTest {
     public static void main(String[] args) {
-        Animal dog, cat,rabbit,duck,goose;
+        Animal dog, cat, rabbit, duck, goose;
         dog = new Dog(4);
         cat = new Cat(4);
         rabbit = new Rabbit(4);
         duck = new Duck(2);
-        goose=new Goose(2);
+        goose = new Goose(2);
 
         //设置行走方式
         dog.setMoveBehavior(new FourLegMove());
