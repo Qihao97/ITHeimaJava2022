@@ -1,5 +1,7 @@
 package paragraph07.sec7_2;
 
+import java.lang.*;
+
 /**
  * @Author: Qihao
  * @Time: 2023/9/3 21:08
