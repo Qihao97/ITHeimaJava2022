@@ -1,7 +1,5 @@
 package manager_with_extends.entry;
 
-
-
 import manager_with_extends.controller.OtherStudentController;
 import manager_with_extends.controller.TeacherController;
 

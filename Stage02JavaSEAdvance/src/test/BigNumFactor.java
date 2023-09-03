@@ -17,7 +17,7 @@ public class BigNumFactor {
        BigDecimal factor = new BigDecimal("1");
 
        BigDecimal step = new BigDecimal("1");
-        for (long i = 1; i < 2023; i++) {
+        for (long i = 2; i < 2023; i++) {
             BigDecimal ii = new BigDecimal(i);
             factor = preFactor.multiply(ii);
             preFactor = factor;
