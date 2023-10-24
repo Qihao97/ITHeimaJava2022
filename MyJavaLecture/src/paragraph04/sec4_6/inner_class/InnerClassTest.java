@@ -11,5 +11,7 @@ public class InnerClassTest {
         OuterClass outerClass = new OuterClass();
         OuterClass.InnerClass1 outerInner1 = outerClass.getInnerClass1();
 
+        OuterClass.InnerClass1 innerClass1 = new OuterClass().new InnerClass1();
+
     }
 }

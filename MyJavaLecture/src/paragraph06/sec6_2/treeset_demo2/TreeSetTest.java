@@ -10,7 +10,7 @@ import java.util.TreeSet;
  */
 public class TreeSetTest {
     public static void main(String[] args) {
-        TreeSet treeSet = new TreeSet(new StrLenComparator());
+        TreeSet<String> treeSet = new TreeSet<>(new StrLenComparator());
         treeSet.add("abcd");
         treeSet.add("cc");
         treeSet.add("cba");

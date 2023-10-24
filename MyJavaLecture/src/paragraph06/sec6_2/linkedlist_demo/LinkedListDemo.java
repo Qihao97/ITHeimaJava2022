@@ -14,6 +14,8 @@ public class LinkedListDemo {
         link.addLast("B");
         link.addLast("C");
         link.addLast("D");
+        link.addFirst("H");
+        link.add("N");
         System.out.println(link);// [A, B, C, D]
         System.out.println(link.getFirst());//A
         System.out.println(link.getLast());//D

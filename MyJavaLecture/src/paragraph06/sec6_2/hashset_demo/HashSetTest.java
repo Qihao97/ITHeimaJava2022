@@ -10,16 +10,18 @@ import java.util.Iterator;
  */
 public class HashSetTest {
     public static void main(String[] args) {
-        HashSet hashSet = new HashSet();
+        HashSet<Person> hashSet = new HashSet<>();
         hashSet.add(new Person("a1", 11));
         hashSet.add(new Person("a2", 12));
         hashSet.add(new Person("a3", 13));
         hashSet.add(new Person("a2", 12));
         hashSet.add(new Person("a4", 14));
+        System.out.println("=================");
         Iterator it = hashSet.iterator();
-        while (((Iterator<?>) it).hasNext()) {
+        while (it.hasNext()) {
             Person p = (Person) it.next();
             System.out.println(p.getName() + "::" + p.getAge());
         }
+//        "A".equals("B");
     }
 }

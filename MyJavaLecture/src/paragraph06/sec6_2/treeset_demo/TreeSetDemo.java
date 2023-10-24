@@ -12,7 +12,7 @@ import java.util.TreeSet;
  */
 public class TreeSetDemo {
     public static void main(String[] args) {
-        TreeSet treeSet = new TreeSet();
+        TreeSet<Student> treeSet = new TreeSet<>();
         treeSet.add(new Student("lisi02", 22));
         treeSet.add(new Student("lisi007", 20));
         treeSet.add(new Student("lisi09", 19));

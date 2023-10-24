@@ -16,7 +16,7 @@ public class Person {
 
     public int hashCode() {
         System.out.println(this.name + "....hashCode");
-        return name.hashCode() + age * 26;
+        return this.name.hashCode() + this.age * 26;
     }
 
 //    重写equals方法
