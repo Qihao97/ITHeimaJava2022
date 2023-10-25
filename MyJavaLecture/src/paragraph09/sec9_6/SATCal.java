@@ -50,6 +50,7 @@ public class SATCal extends JFrame implements ActionListener {//窗口实现监�
         SATCal test = new SATCal();
     }
 
+    @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == jb1) {//判断事件源是否为jb1
             String s = jta1.getText();

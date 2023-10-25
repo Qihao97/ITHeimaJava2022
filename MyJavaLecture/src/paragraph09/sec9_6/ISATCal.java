@@ -48,6 +48,7 @@ public class ISATCal extends JFrame implements ItemListener, ActionListener {//�
         ISATCal test = new ISATCal();
     }
 
+    @Override
     public void itemStateChanged(ItemEvent e) {//ItemListener接口的方法
         String s = jta1.getText();
         StringTokenizer tokens = new StringTokenizer(s);
@@ -62,6 +63,7 @@ public class ISATCal extends JFrame implements ItemListener, ActionListener {//�
             jtf1.setText("" + (float) sum / n);
     }
 
+    @Override
     public void actionPerformed(ActionEvent e) {//ActionListener接口的方法
         g.clearSelection();//使按钮组g中的单选按钮回复到皆不选中的状态
         jta1.setText(null);
