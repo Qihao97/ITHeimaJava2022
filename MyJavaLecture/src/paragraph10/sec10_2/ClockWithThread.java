@@ -41,6 +41,7 @@ class ClockThread extends Thread {
         t = c;
     }
 
+    @Override
     public void run() {
         while (this.isAlive()) {
             t.display();

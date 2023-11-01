@@ -10,6 +10,7 @@ public class ThreadPrinter extends Thread {
         super(s);
     }
 
+    @Override
     public void run() {
         int i;
         for (i = 0; i < 10; i++) {
