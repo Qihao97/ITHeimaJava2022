@@ -13,15 +13,22 @@ public class AnimalTest {
         Cat cat = new Cat();
         dog.makeSound();
         dog.jump();
+        dog.watchDoor();
         cat.makeSound();
         cat.jump();
 
         System.out.println("==============华丽的分割线================");
         //面向对象的多态性
         Animal animal = new Animal();
+//        Animal animal;
         animal = dog;
         animal.makeSound();
         Animal animal1 = cat;
         animal1.makeSound();
+        Animal a1 = new Cat();
+        a1.makeSound();
+//        a1.jump();
+//        Cat c = new Animal();
+//        animal.jump();
     }
 }

@@ -9,7 +9,9 @@ import javax.naming.InsufficientResourcesException;
  */
 public class Bank {
     //    存款数
-    double balance;
+    private double balance;
+
+    public double getBalance() {return this.balance;}
 
     public Bank(double balance) {
         this.balance = balance;
@@ -21,6 +23,8 @@ public class Bank {
             throw new InsufficientFundsException(this, dAmount);
         }
         this.balance -= dAmount;
+        this.showBalance();
+        System.out.println("取款成功，感谢使用！");
     }
 
     public void showBalance() {

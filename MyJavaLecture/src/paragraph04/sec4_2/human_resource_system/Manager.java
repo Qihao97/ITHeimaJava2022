@@ -10,8 +10,12 @@ import paragraph04.sec4_1.human_resource_system.Employee;
 public class Manager extends Employee {
     private double bonus;
 
-    public Manager(String name, String id, String hireDay, String address, String cellPhone, String homePhone, double salary, double bonus) {
+    public Manager(String name, String id,
+                   String hireDay, String address,
+                   String cellPhone, String homePhone,
+                   double salary, double bonus) {
         super(name, id, hireDay, address, cellPhone, homePhone, salary);
+//        super.
         this.bonus = bonus;
     }
 

@@ -8,8 +8,8 @@ package paragraph03.sec3_2;
 public class Rectangle {
     double width, height;
     Rectangle(double w, double h){  //类的带参数构造方法
-        width = w;
-        height = h;
+        this.width = w;
+        this.height = h;
     }
 
     double area(){ //求矩形面积方法

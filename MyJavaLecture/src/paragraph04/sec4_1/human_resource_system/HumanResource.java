@@ -6,6 +6,7 @@ package paragraph04.sec4_1.human_resource_system;
  * @Descriptions: 本类用来测试雇员类Employee，P85，程序4.2
  */
 public class HumanResource {
+//    Employee e1 = new Employee();
     public static void main(String[] args) {
         Employee employee1 = new Employee("张三", "510228198001011000", "2015-01-01",
                 "重庆市南岸区学府大道1000号", "13912345000", "023-62631000", 4000);

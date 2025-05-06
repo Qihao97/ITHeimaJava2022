@@ -10,9 +10,11 @@ public class Cylinder {
     private double radius;
     private int height;
 
+    public Cylinder(){}
     public Cylinder(double radius, int height) {
         this.radius = radius;
         this.height = height;
+//        System.out.println("李二狗");
     }
 
     public void compare(Cylinder v) {

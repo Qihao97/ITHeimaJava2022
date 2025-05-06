@@ -18,6 +18,7 @@ public class TestException {
                 System.out.println(demo[i]);
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Resetting Index Value");
+                System.out.println(e.toString());
                 i = 5;
             } catch (Exception e) {
                 System.out.println(e.toString());

@@ -11,7 +11,8 @@ public class Test {
         m = new MyDate[10];
         for (int i = 0; i < 10; i++) {
             m[i] = new MyDate(i + 1, i + 1, 1990 + i);
-            m[i].displsy();
+            m[i].display();
+//            m = null;
         }
     }
 }

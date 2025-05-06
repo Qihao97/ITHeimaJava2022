@@ -20,7 +20,7 @@ public class ClickCount extends JFrame {//自定义窗口类继承自JFrame
         jl1=new JLabel("0");
         jb1=new JButton("Click Me");
         jb1.addActionListener(al);//为按钮jb1注册监听器到对象al
-        Container contentPane=getContentPane();
+        Container contentPane=this.getContentPane();
         contentPane.setLayout(null);
         jb1.setBounds(20,50,80,25);
         jl1.setBounds(130,50,50,25);

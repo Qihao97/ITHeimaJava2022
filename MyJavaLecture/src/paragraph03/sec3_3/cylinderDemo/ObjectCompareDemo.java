@@ -7,7 +7,7 @@ package paragraph03.sec3_3.cylinderDemo;
  */
 public class ObjectCompareDemo {
     public static void main(String[] args) {
-        Cylinder cylinder1 = new Cylinder(2.0, 3);
+        Cylinder cylinder1 = new Cylinder();
         Cylinder cylinder2 = new Cylinder(2.0, 3);
         Cylinder cylinder3 = cylinder1;
         cylinder1.compare(cylinder2);   //不相等

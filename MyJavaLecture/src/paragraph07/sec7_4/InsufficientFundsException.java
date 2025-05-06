@@ -14,8 +14,8 @@ public class InsufficientFundsException extends Exception {
         this.excepAmount = excepAmount;
     }
 
-    public String excepMessage() {
-        String str = "您的账户余额为：" + excepBank.balance
+    public String exceptMessage() {
+        String str = "您的账户余额为：" + excepBank.getBalance()
                 + "\n" + "您的取款金额为： " + excepAmount + "\n" + "取款金额大于账户余额，您的余额不足，操作不合法！";
         return str;
     }

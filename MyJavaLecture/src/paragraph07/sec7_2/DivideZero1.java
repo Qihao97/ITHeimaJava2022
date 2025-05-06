@@ -15,6 +15,7 @@ public class DivideZero1 {
             y = 3 / c.x;
         } catch (ArithmeticException e) {
             System.out.println("divide by zero error!");
+            System.out.println(e.toString());
         }
         System.out.println("program ends ok!");
     }

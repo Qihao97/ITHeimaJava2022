@@ -19,9 +19,9 @@ public class DeleteRecordDemo {
         //声明JDBC驱动对象
         String jdDriver = "com.mysql.cj.jdbc.Driver";
         //声明JDBC的URL
-        String url = "jdbc:mysql://172.30.128.209/test";
-        String user = new String(decoder.decode("amF2YVRFU1Q="), "UTF-8");
-        String pwd = new String(decoder.decode("UXdlcnRfMjAyMw=="), "UTF-8");
+        String url = "jdbc:mysql://127.0.0.1/test";
+        String user = new String(decoder.decode("cm9vdA=="),"UTF-8");
+        String pwd = new String(decoder.decode("YWRtaW5hZG1pbg=="),"UTF-8");
 
         // 加载驱动
         try {

@@ -11,7 +11,7 @@ public class DisplayCurrentTime {
         long allMilliseconds = System.currentTimeMillis();
 
         //除以1000，得到从1970年1月1日零时到当前时刻的总秒数，取整
-        long allSeconds = allMilliseconds/100;
+        long allSeconds = allMilliseconds/1000;
         //计算当前时间的秒数
         long currentSecond = allSeconds % 60;
         //计算从1970年1月1日零时到当前时刻的总分钟数
@@ -32,5 +32,11 @@ public class DisplayCurrentTime {
         int b = 0xffffffff;
         int c = a&b;
         System.out.println(Integer.toHexString(c));
+
+        System.out.println("=================华丽的分割线=================");
+        double result1 = (double)1 / 2;
+        double result2 = (double)(1 / 2);
+        System.out.println("result\"1 = " + result1);
+        System.out.println("result2 = " + result2);
     }
 }

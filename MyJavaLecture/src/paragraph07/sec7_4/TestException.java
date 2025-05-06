@@ -10,10 +10,11 @@ public class TestException {
         try {
             Bank bank = new Bank(50);
             bank.withdrawl(100);
-            System.out.println("取款不成功，请下次再来！");
+            System.out.println("取款成功，感谢使用！");
         } catch (InsufficientFundsException e) {
+            System.out.println("取款不成功，请下次再来！");
             System.out.println(e.toString());
-            System.out.println(e.excepMessage());
+            System.out.println(e.exceptMessage());
         }
     }
 }

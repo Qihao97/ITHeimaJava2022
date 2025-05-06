@@ -36,7 +36,9 @@ public class MapDemo1 {
         integerMap.put(new Person("李四003", 19), 96);
 
 //        将映射关系存入名为entrySet的集合
+//        Set<Map.Entry<Person, Integer>> entrySet = map.entrySet();
         Set<Map.Entry<Person, Integer>> entrySet = map.entrySet();
+//        Iterator<Map.Entry<Person, Integer>> iterator1 = entrySet.iterator();
         Iterator<Map.Entry<Person, Integer>> iterator1 = entrySet.iterator();
         while (iterator1.hasNext()) {
             Map.Entry<Person, Integer> entry = iterator1.next();

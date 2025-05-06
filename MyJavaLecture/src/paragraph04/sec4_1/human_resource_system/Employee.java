@@ -6,7 +6,7 @@ package paragraph04.sec4_1.human_resource_system;
  * @Descriptions: 本类为人力资源管理系统中的雇员类，P84，程序4.1
  */
 public class Employee {
-    private String name;
+    private String name;    // 员工姓名
     private String id;
     private String hireDay;
     private String address;

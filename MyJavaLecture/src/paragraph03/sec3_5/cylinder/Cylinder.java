@@ -6,8 +6,8 @@ package paragraph03.sec3_5.cylinder;
  * @Descriptions: 在Cylinder类的基础上添加了static变量 P65,程序3.8
  */
 public class Cylinder {
-    private static int num = 0;
-    private static double PI = 3.1415926;
+    public static int num = 0;
+    public static double PI = 3.1415926;
     private double radius;
     private int height;
     public Cylinder(double radius, int height) {

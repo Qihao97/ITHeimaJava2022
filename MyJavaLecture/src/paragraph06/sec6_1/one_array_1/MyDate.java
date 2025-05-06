@@ -16,7 +16,7 @@ public class MyDate {
         this.year = year;
     }
 
-    public void displsy() {
+    public void display() {
         System.out.println(day + "-" + month + "-" + year);
     }
 }

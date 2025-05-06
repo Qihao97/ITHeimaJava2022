@@ -14,7 +14,8 @@ public class Person {
         this.age = age;
     }
 
-    public boolean equals(Object obj) {
+   @Override
+   public boolean equals(Object obj) {
         if (!(obj instanceof Person))
             return false;
         Person p = (Person) obj;

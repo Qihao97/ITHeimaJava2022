@@ -12,7 +12,9 @@ public class TestException2 {
         try {
             return a / b;
         } catch (Exception e) {
-            System.out.println(e.getMessage()); //⑩获取异常信息
+            System.out.println(e.getMessage()); // 获取异常信息
+            System.out.println(e.toString());
+//            e.printStackTrace();
         }
         return 0;
     }

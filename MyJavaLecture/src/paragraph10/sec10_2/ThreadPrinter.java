@@ -13,7 +13,7 @@ public class ThreadPrinter extends Thread {
     @Override
     public void run() {
         int i;
-        for (i = 0; i < 10; i++) {
+        for (i = 0; i < 1000; i++) {
             System.out.println(Thread.currentThread().getName() + "打印" + i); //① 输出当前正在使用CPU资源的线程的名字以及正在打印的i的值
         }
         System.out.println(Thread.currentThread().getName() + "结束");

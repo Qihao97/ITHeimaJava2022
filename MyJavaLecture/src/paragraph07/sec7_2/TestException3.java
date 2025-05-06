@@ -14,10 +14,12 @@ public class TestException3 {
         try {
             y = 3 / c.x;
             if (c.x == 0) {
-                throw new Exception("被零除！");
+//                throw new Exception("被零除！");
+                throw new Exception();
             }
         } catch (ArithmeticException e) {
             System.out.println("divide by zero error!");
+            System.out.println(e.toString());
         } catch (Exception e) {
             e.printStackTrace();
         }

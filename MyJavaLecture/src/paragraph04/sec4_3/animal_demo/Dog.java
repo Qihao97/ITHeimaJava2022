@@ -15,4 +15,8 @@ public class Dog extends Animal {
     public void jump(){
         System.out.println("狗狗跳跃");
     }
+
+    public void watchDoor(){
+        System.out.println("小狗看门中。。。");
+    }
 }

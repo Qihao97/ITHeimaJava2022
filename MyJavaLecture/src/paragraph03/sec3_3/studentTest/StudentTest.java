@@ -16,6 +16,6 @@ public class StudentTest {
 
         System.out.println("------------华丽的分割线------------------");
         //调用成员方法
-        student2.selfIntro();
+        student1.selfIntro();
     }
 }

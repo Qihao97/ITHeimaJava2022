@@ -13,7 +13,7 @@ import java.util.Iterator;
  */
 public class ArrayListTest {
     public static void main(String[] args) {
-        ArrayList arrayList = new ArrayList();
+        ArrayList arrayList = new ArrayList(8);
         arrayList.add("A");
         arrayList.add("B");
         arrayList.add("A");
